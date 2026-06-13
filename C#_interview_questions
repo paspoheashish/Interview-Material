@@ -1,0 +1,1236 @@
+✅ C# + .NET Complete Topic‑Wise Question Bank (All Questions Kept, Duplicates Removed)
+
+(This is the cleanest possible structured version of your entire document.)
+📘 1. C# BASICS
+
+    What is C#?
+
+    What are the main features of C#?
+
+    What is a namespace in C#?
+
+    What is the difference between a class and an object?
+
+    What is the purpose of the Main method in C#?
+
+    What are the different types of comments in C#?
+
+    What is a data type in C#?
+
+    What are properties in C#?
+
+    What is an indexer in C#?
+
+📘 2. .NET FUNDAMENTALS
+
+    Explain difference between .NET and C#.
+
+    .NET Framework vs .NET Core vs .NET 5.0.
+
+    What is IL (Intermediate Language) Code?
+
+    What is the use of JIT (Just in time compiler)?
+
+    Is it possible to view IL code?
+
+    What is the benefit of compiling into IL code?
+
+    Does .NET support multiple programming languages?
+
+    What is CLR (Common Language Runtime)?
+
+    What is managed and unmanaged code?
+
+    Explain the importance of Garbage collector?
+
+    Can garbage collector claim unmanaged objects?
+
+    What is the importance of CTS?
+
+    Explain CLS.
+
+📘 3. MEMORY, STACK, HEAP, GC
+
+    Difference between Stack vs Heap?
+
+    What are Value types & Reference types?
+
+    Explain boxing and unboxing?
+
+    What is consequence of boxing and unboxing?
+
+    Explain casting, implicit casting and explicit casting?
+
+    What can happen during explicit casting?
+
+    Where are stack and heap stored?
+
+    What goes on stack and what goes on heap?
+
+    How is the stack memory address arranged?
+
+    How is stack memory deallocated LIFO or FIFO?
+
+    How are primitive and objects stored in memory?
+
+    Can primitive data types be stored in heap?
+
+    Are strings allocated on stack or heap?
+
+    How many stack and heaps are created for an application?
+
+    How are stack and heap memory deallocated?
+
+    Who clears the heap memory?
+
+    Where is structure allocated Stack or Heap?
+
+    Are structures copy byval or copy byref?
+
+    Can structures get created on Heap?
+
+    Explain Garbage collector (GC)?
+
+    How does Garbage collector know when to clean the objects?
+
+    Is there a way we can see this Heap memory?
+
+    Does Garbage collector clean primitive types?
+
+    Managed vs UnManaged code/objects/resources?
+
+    Can garbage collector clean unmanaged code?
+
+    Explain Generations?
+
+    What is GC0, GC1, and GC2?
+
+    Why do we need Generations?
+
+    Which is the best place to clean unmanaged objects?
+
+    How does GC behave when we have a destructor?
+
+    What do you think about empty destructor?
+
+    Explain the Dispose Pattern?
+
+    Finalize vs Destructor?
+
+    What is the use of using keyword?
+
+    Can you force Garbage collector?
+
+    Is it a good practice to force GC?
+
+    How can we detect memory issues?
+
+    How can we know the exact source of memory issues?
+
+    What is a memory leak?
+
+    Can .NET Application have memory leak as we have GC?
+
+    How to detect memory leaks in .NET applications?
+
+    Explain weak and strong references?
+
+    When will you use weak references?
+
+📘 4. C# LANGUAGE FEATURES
+Keywords & Concepts
+
+    What is the difference between const and readonly in C#?
+
+    What is the readonly keyword in C#?
+
+    What is a const keyword in C#?
+
+    What is a nullable type in C#?
+
+    What is the difference between == and Equals() in C#?
+
+    What is the is keyword in C#?
+
+    What is the as keyword in C#?
+
+    What is the difference between Dispose() and Finalize() in C#?
+
+    What is the lock statement in C#?
+
+    What is a static class in C#?
+
+    What is a partial class in C#?
+
+    What is the difference between public, private, protected, and internal access modifiers in C#?
+
+    What is the params keyword in C#?
+
+    What is an extension method in C#?
+
+    What is boxing and unboxing in C#?
+
+    What is reflection in C#?
+
+    What is an attribute in C#?
+
+    What is the dynamic keyword in C#?
+
+📘 5. CONTROL FLOW
+
+    What is a foreach loop in C#?
+
+    What is a while loop in C#?
+
+    What is a do‑while loop in C#?
+
+    What is the switch statement in C#?
+
+📘 6. COLLECTIONS
+Arrays & Lists
+
+    What is an array in C#?
+
+    What is a List in C#?
+
+    What is the difference between Array and ArrayList in C#?
+
+    How do you sort a List in C#?
+
+    How do you convert an array to a List in C#?
+
+    How do you find an element in a List using a condition in C#?
+
+    How do you remove all elements that match a condition from a List in C#?
+
+Dictionary
+
+    What is a Dictionary in C#?
+
+    How do you check if a key exists in a Dictionary in C#?
+
+    How do you iterate over a Dictionary in C#?
+
+    How do you remove a key/value pair from a Dictionary in C#?
+
+    How do you get a value from a Dictionary safely in C#?
+
+Other Collections
+
+    What is the yield keyword in C#?
+
+    What is an anonymous type in C#?
+
+    What is a tuple in C#?
+
+📘 7. METHODS
+
+    What is a method in C#?
+
+    What is method overloading in C#?
+
+    What is method overriding in C#?
+
+    What is an anonymous method in C#?
+
+📘 8. OOP PRINCIPLES
+
+    What is inheritance in C#?
+
+    What is polymorphism in C#?
+
+    What is encapsulation in C#?
+
+    What are the four principles of OOP?
+
+    Why do we need OOP?
+
+    What are the important pillars of OOPs?
+
+    Abstraction vs Encapsulation?
+
+    Explain Inheritance?
+
+    Explain Virtual Keyword?
+
+    What is overriding?
+
+    Explain overloading?
+
+    Overloading vs Overriding?
+
+    What is polymorphism?
+
+    Can polymorphism work without inheritance?
+
+    Explain static vs dynamic polymorphism?
+
+    Explain operator overloading?
+
+    How to do custom operator overloading?
+
+📘 9. INTERFACES & ABSTRACT CLASSES
+
+    What are interfaces in C#?
+
+    What is the difference between abstract class and interface in C#?
+
+    Can interfaces have fields in C#?
+
+    Can an interface inherit another interface in C#?
+
+    Can an interface contain static methods in C#?
+
+    What happens if a class does not implement all members of an interface in C#?
+
+    Can a class implement multiple interfaces in C#?
+
+    Can abstract classes be instantiated in C#?
+
+    Can an abstract class have a constructor in C#?
+
+    Can abstract classes have non‑abstract methods in C#?
+
+    Can abstract methods have a body in C#?
+
+    Can abstract classes implement interfaces in C#?
+
+    What is the difference between a static class and a singleton class in C#?
+
+    Why do we need Abstract classes?
+
+    Are Abstract methods virtual?
+
+    Is it compulsory to implement Abstract methods?
+
+    Why simple base class replace Abstract class?
+
+    Explain interfaces and why do we need it?
+
+    Can we write logic in interface?
+
+    Can we define methods as private in interface?
+
+    If I want to change interface what's the best practice?
+
+    Explain Multiple inheritance in Interface?
+
+    Explain Interface Segregation principle?
+
+    Can we create instance of interface?
+
+    Can we do Multiple inheritance with Abstract classes?
+
+    Abstract vs Interfaces?
+
+📘 10. CONSTRUCTORS & CLASS BEHAVIOR
+
+    What is a constructor in C#?
+
+    What is a destructor in C#?
+
+    In parent child which constructor fires first?
+
+    How are initializers executed?
+
+    How are static constructors executed in Parent child?
+
+    When does static constructor fires?
+
+    What is Shadowing?
+
+    Explain method hiding?
+
+    Shadowing vs Overriding?
+
+    When do we need Shadowing?
+
+    Explain Sealed Classes?
+
+    Can we create instance of sealed classes?
+
+    What are nested classes and when to use them?
+
+    Can Nested class access outer class variables?
+
+    Can we have public, protected access modifiers in nested class?
+
+    Explain Partial classes?
+
+    In what scenarios do we use partial classes?
+
+📘 11. DELEGATES & EVENTS
+
+    What are delegates in C#?
+
+    What are events in C#?
+
+    What is the need of Delegates?
+
+    What is a Delegate and how to create a Delegate?
+
+    Where have you used Delegates?
+
+    What is a Multicast Delegate?
+
+    What is an Event?
+
+    How to Create an Event?
+
+    Delegate VS Events.
+
+📘 12. EXCEPTION HANDLING
+
+    What is exception handling in C#?
+
+    How do we handle exceptions in C# (try/catch)?
+
+    What is the need of finally?
+
+    What is the difference between throw and throw ex in catch block?
+
+    How do you create a custom exception in C#?
+
+    What is the finally block in exception handling?
+
+    How do you use the using statement for resource management in C#?
+
+📘 13. ASYNC, MULTITHREADING & TASKS
+
+    What is multithreading in C#?
+
+    What are threads (Multithreading)?
+
+    How are threads different from TPL?
+
+    What is the async and await keyword in C#?
+
+    What is the Task class in C#?
+
+    What is the difference between Task and Thread in C#?
+
+📘 14. LINQ
+
+    What is LINQ in C#?
+
+📘 15. SOLID PRINCIPLES
+
+    What are the SOLID principles?
+
+    What is the full form of SOLID?
+
+    What is the goal of SOLID?
+
+    Can you explain the Single Responsibility Principle (SRP) with an example?
+
+    What is the benefit of SRP?
+
+    Can you explain the Open/Closed Principle (OCP) with an example?
+
+    What is the benefit of OCP?
+
+    Can you explain LISKOV Principle and its violation?
+
+    How can we fix LISKOV Problem?
+
+    Explain Interface Segregation Principle?
+
+    Is there a connection between LISKOV and ISP?
+
+    Define dependency inversion?
+
+    What is higher level module and lower level module?
+
+    How does dependency inversion benefit, show with an example?
+
+    Will only Dependency inversion solve decoupling problem?
+
+    Why do developers move object creation outside high level module?
+
+    Explain IOC (Inversion of control)?
+
+    Explain Dependency Injection with an example?
+
+    Is SOLID, IOC and DI design pattern or principle?
+
+    Is only SOLID Enough for good code/architecture?
+
+📘 16. RELATIONSHIPS IN OOP
+
+    What are the different types of \"USING/HAS A\" relationship?
+
+    What is a composition relationship?
+
+    Explain Aggregation?
+
+    Explain Association?
+
+    Composition vs Aggregation vs Association?
+
+📘 17. DESIGN PATTERNS
+Singleton
+
+    What is the Singleton pattern in C#?
+
+    How do you implement a basic Singleton in C#?
+
+    What are the common ways to implement the Singleton pattern in C#?
+
+    What is a thread-safe Singleton, and how do you implement it?
+
+    What are the advantages and disadvantages of using the Singleton pattern?
+
+    When would you use a static class instead of a singleton?
+
+    How did you implement singleton pattern?
+
+    Can we use Static class rather than using a private constructor?
+
+    Static vs Singleton pattern?
+
+    How did you implement thread safety in Singleton?
+
+    What is double null check in Singleton?
+
+    Can Singleton pattern code be made easy with Lazy keyword?
+
+    Can we rid of this double null check code?
+
+Repository & Unit of Work
+
+    What is the use of repository pattern?
+
+    Is DAL (Data access Layer) and Repository same?
+
+    What is Generic repository pattern?
+
+    Is abstraction the only benefit of Repository?
+
+    How to implement transaction in repository?
+
+    What is Unit of work design pattern?
+
+    Do we need repository pattern as EF does almost the same work?
+
+    Did you do unit testing with Repository?
+
+    How does repository pattern make unit testing easy?
+
+    How can we do mock testing with Repository?
+
+Factory Patterns
+
+    What is Factory pattern and how does it benefit?
+
+    How does centralizing object creation helps in loose coupling?
+
+    What is IOC and DI?
+
+    DI vs IOC?
+
+    What is a service locator?
+
+    Service Locator vs DI?
+
+    Which is good to use Service Locator or DI?
+
+    Can not we use a simple class rather than interface for DI?
+
+    Is DI a Factory Pattern?
+
+    So If you just centralize object creation is it Factory pattern?
+
+    Static DI and Dynamic DI?
+
+    In which scenarios to use Static DI vs Dynamic DI?
+
+    The real Factory pattern?
+
+    Factory Method vs Factory pattern?
+
+    How are new behaviors created in FP?
+
+    What is Abstract Factory Pattern?
+
+    Does Abstract Factory Pattern use FP inside?
+
+    Explain Simple Factory Pattern?
+
+    Simple Factory vs Factory (Factory Method) vs Abstract Factory?
+
+    How to remove IF conditions from Simple Factory?
+
+============================================================
+
+
+1. C# BASICS
+
+    What is C#?
+
+    What are the main features of C#?
+
+    What is a namespace in C#?
+
+    What is the difference between a class and an object?
+
+    What is the purpose of the Main method in C#?
+
+    What are the different types of comments in C#?
+
+    What is a data type in C#?
+
+    What are properties in C#?
+
+    What is an indexer in C#?
+
+⭐ Added
+
+    Records and init only setters — modern immutable reference types and initialization patterns.
+
+    Nullable reference types — compiler support for null safety and annotations.
+
+    Pattern matching basics — is, switch pattern matching enhancements.
+
+2. .NET FUNDAMENTALS
+
+    Explain difference between .NET and C#.
+
+    .NET Framework vs .NET Core vs .NET 5.0.
+
+    What is IL (Intermediate Language) code?
+
+    What is JIT (Just‑In‑Time compiler)?
+
+    Is it possible to view IL code?
+
+    Benefit of compiling into IL code?
+
+    Does .NET support multiple languages?
+
+    What is CLR?
+
+    What is managed and unmanaged code?
+
+    Importance of Garbage Collector?
+
+    Can GC clean unmanaged objects?
+
+    What is CTS?
+
+    What is CLS?
+
+⭐ Added
+
+    Runtime types and assemblies — assemblies, strong names, and loading contexts.
+
+    Runtimes and frameworks roadmap — .NET 6/7/8 differences and LTS concept.
+
+    NuGet and package management — package versioning and semantic versioning.
+
+3. MEMORY STACK HEAP GC
+
+    Difference between Stack vs Heap.
+
+    What goes on stack and what goes on heap?
+
+    How is stack memory arranged?
+
+    Stack memory deallocation (LIFO/FIFO).
+
+    Value types vs Reference types.
+
+    Boxing and unboxing (definition, consequences, performance).
+
+    Can primitive types be stored on heap?
+
+    Are strings stored on stack or heap?
+
+    How many stacks/heaps per application?
+
+    How are stack and heap memory deallocated?
+
+    Who clears heap memory?
+
+    Where is struct allocated (stack or heap)?
+
+    Struct copy: by value or by reference?
+
+    Can structs be created on heap?
+
+    Explain Garbage Collector (GC).
+
+    How does GC know when to clean objects?
+
+    Can GC clean primitive types?
+
+    Managed vs unmanaged resources.
+
+    GC Generations (Gen0, Gen1, Gen2).
+
+    Why do we need generations?
+
+    Best place to clean unmanaged objects?
+
+    GC behavior with destructors.
+
+    Empty destructor impact.
+
+    Dispose pattern.
+
+    Finalize vs Destructor.
+
+    using keyword for resource cleanup.
+
+    Can you force GC?
+
+    Is forcing GC good practice?
+
+    Detecting memory issues.
+
+    Finding source of memory leaks.
+
+    What is a memory leak?
+
+    Can .NET apps have memory leaks?
+
+    Detecting memory leaks in .NET.
+
+    Weak vs strong references.
+
+    When to use weak references?
+
+⭐ Added
+
+    Span Memory and stackalloc — Span<T>, Memory<T>, stackalloc for low‑allocation code.
+
+    ValueTask and IAsyncEnumerable memory patterns — allocation‑efficient async patterns.
+
+    GC tuning and server vs workstation GC — configuration and when to change settings.
+
+    Profiling tools — dotnet-trace, dotnet-counters, BenchmarkDotNet basics.
+
+4. C# LANGUAGE FEATURES
+
+Types & Keywords
+
+    const vs readonly.
+
+    readonly keyword.
+
+    const keyword.
+
+    nullable types.
+
+    sealed keyword.
+
+    static class.
+
+    partial class.
+
+    attributes.
+
+    dynamic keyword.
+
+    reflection.
+
+Control Flow
+
+    foreach loop.
+
+    for loop.
+
+    while loop.
+
+    do‑while loop.
+
+    switch statement.
+
+Operators & Casting
+
+    == vs Equals().
+
+    is keyword.
+
+    as keyword.
+
+    implicit vs explicit casting.
+
+    What can happen during explicit casting?
+
+    null‑coalescing operator (??).
+
+⭐ Added
+
+    Records and positional records — concise immutable types and value semantics.
+
+    Local functions and expression‑bodied members — modern syntax patterns.
+
+    Source generators overview — compile‑time code generation concept.
+
+    Caller info attributes — CallerMemberName, CallerFilePath, CallerLineNumber.
+
+    Unsafe code and pointers — when and how to use unsafe blocks.
+
+5. COLLECTIONS
+
+Arrays & Lists
+
+    What is an array?
+
+    What is a List?
+
+    Array vs ArrayList.
+
+    Generic collections.
+
+    Sorting a List.
+
+    Convert array to List.
+
+    Find element in List by condition.
+
+    Remove elements from List by condition.
+
+Dictionary
+
+    What is a Dictionary?
+
+    Check if key exists.
+
+    Iterate over Dictionary.
+
+    Remove key/value pair.
+
+    Safe get value (TryGetValue).
+
+Other Collections
+
+    yield keyword.
+
+    anonymous types.
+
+    tuple.
+
+⭐ Added
+
+    Concurrent collections — ConcurrentDictionary, ConcurrentQueue, ConcurrentBag.
+
+    Immutable collections — ImmutableList, ImmutableDictionary and when to use them.
+
+    Collections performance considerations — capacity, resizing, enumeration costs.
+
+    Span and Memory usage with collections — slicing without allocations.
+
+6. METHODS & PARAMETERS
+
+    What is a method?
+
+    Method overloading.
+
+    Method overriding.
+
+    params keyword.
+
+    extension methods.
+
+    anonymous methods.
+
+⭐ Added
+
+    Optional and named parameters — usage and overload resolution effects.
+
+    Expression trees — Expression<Func<T>> and use cases (LINQ providers).
+
+    Method inlining and JIT optimizations — performance implications.
+
+7. OOP PRINCIPLES
+
+    Why do we need OOP?
+
+    Four pillars of OOP.
+
+    Abstraction vs Encapsulation.
+
+    Inheritance.
+
+    Polymorphism.
+
+    Can polymorphism work without inheritance?
+
+    Static vs dynamic polymorphism.
+
+    Operator overloading.
+
+    Custom operator overloading.
+
+⭐ Added
+
+    Records vs classes vs structs design guidance — when to choose each.
+
+    Immutability patterns — benefits and implementation techniques.
+
+    Design by contract basics — preconditions, postconditions, invariants.
+
+8. INTERFACES & ABSTRACT CLASSES
+
+    What are interfaces?
+
+    Why do we need interfaces?
+
+    Can interfaces have fields?
+
+    Can interfaces inherit other interfaces?
+
+    Can interfaces contain static methods?
+
+    What if a class does not implement all interface members?
+
+    Can a class implement multiple interfaces?
+
+    Abstract class vs Interface.
+
+    Why do we need abstract classes?
+
+    Are abstract methods virtual?
+
+    Can abstract classes be instantiated?
+
+    Must abstract methods be implemented?
+
+    Can abstract classes have constructors?
+
+    Can abstract classes have non‑abstract methods?
+
+    Can abstract methods have a body?
+
+    Can abstract classes implement interfaces?
+
+    Multiple inheritance in interfaces.
+
+    Interface Segregation Principle (ISP).
+
+⭐ Added
+
+    Default interface methods — C# 8 feature and compatibility considerations.
+
+    Explicit interface implementation — when to use and why.
+
+9. CONSTRUCTORS & CLASS BEHAVIOR
+
+    What is a constructor?
+
+    Parent‑child constructor execution order.
+
+    How initializers execute.
+
+    Static constructor behavior.
+
+    When static constructor fires.
+
+    What is shadowing?
+
+    Method hiding.
+
+    Shadowing vs overriding.
+
+    When to use shadowing.
+
+    Sealed classes.
+
+    Can we create instance of sealed classes?
+
+    Nested classes and usage.
+
+    Can nested classes access outer variables?
+
+    Access modifiers in nested classes.
+
+    Partial classes and scenarios.
+
+⭐ Added
+
+    Object initializers and collection initializers — concise initialization patterns.
+
+    Factory methods and static factory patterns — alternatives to constructors.
+
+10. DELEGATES & EVENTS
+
+    What are delegates?
+
+    Why do we need delegates?
+
+    How to create a delegate.
+
+    Where delegates are used.
+
+    Multicast delegates.
+
+    What are events?
+
+    How to create an event.
+
+    Delegate vs Event.
+
+⭐ Added
+
+    Built‑in delegates — Action, Func, Predicate and common usage.
+
+    EventHandler and EventHandler<TEventArgs>` pattern — standard event signature.
+
+11. EXCEPTION HANDLING
+
+    What is exception handling?
+
+    try/catch.
+
+    finally block.
+
+    throw vs throw ex.
+
+    Creating custom exceptions.
+
+    using statement for resource management.
+
+⭐ Added
+
+    Exception filters — catch when usage.
+
+    Best practices for exception design — when to throw, exception hierarchies, preserving stack traces.
+
+12. ASYNC MULTITHREADING TASKS
+
+    What is multithreading?
+
+    Threads vs TPL.
+
+    async and await.
+
+    Task class.
+
+    Task vs Thread.
+
+⭐ Added
+
+    ConfigureAwait and SynchronizationContext — library vs app considerations.
+
+    Cancellation patterns — CancellationToken and cooperative cancellation.
+
+    IAsyncEnumerable and async streams — streaming async data.
+
+    Channels and producer/consumer primitives — high‑throughput async patterns.
+
+13. LINQ
+
+    What is LINQ?
+
+⭐ Added
+
+    Deferred execution and immediate execution — ToList, ToArray effects.
+
+    IQueryable vs IEnumerable — expression trees and remote execution.
+
+    PLINQ basics — parallel LINQ for CPU‑bound queries.
+
+14. SOLID PRINCIPLES
+
+    What is SOLID?
+
+    Full form of SOLID.
+
+    Goal of SOLID.
+
+    SRP (with example).
+
+    Benefits of SRP.
+
+    OCP (with example).
+
+    Benefits of OCP.
+
+    Liskov Principle & violation.
+
+    Fixing Liskov problems.
+
+    ISP.
+
+    Connection between LSP and ISP.
+
+    Dependency Inversion Principle.
+
+    High‑level vs low‑level modules.
+
+    Why move object creation outside modules?
+
+    IOC (Inversion of Control).
+
+    Dependency Injection (with example).
+
+    Are SOLID, IOC, DI patterns or principles?
+
+    Is SOLID enough for good architecture?
+
+⭐ Added
+
+    Clean Architecture and Onion Architecture overview — organizing code for maintainability.
+
+    Hexagonal Architecture basics — ports and adapters.
+
+15. RELATIONSHIPS IN OOP
+
+    Types of “has‑a” relationships.
+
+    Composition.
+
+    Aggregation.
+
+    Association.
+
+    Composition vs Aggregation vs Association.
+
+⭐ Added
+
+    Dependency vs association — clarifying coupling types.
+
+16. DESIGN PATTERNS
+
+Singleton
+
+    What is Singleton pattern?
+
+    Basic Singleton implementation.
+
+    Common ways to implement Singleton.
+
+    Thread‑safe Singleton.
+
+    Double‑checked locking.
+
+    Lazy<T> Singleton.
+
+    Static class vs Singleton.
+
+    Advantages & disadvantages of Singleton.
+
+Factory Patterns
+
+    What is Factory pattern?
+
+    How centralizing object creation helps loose coupling.
+
+    Factory Method vs Factory Pattern.
+
+    Abstract Factory Pattern.
+
+    Does Abstract Factory use Factory Method?
+
+    Simple Factory.
+
+    Simple Factory vs Factory Method vs Abstract Factory.
+
+    Removing IF conditions from Simple Factory.
+
+Repository & Unit of Work
+
+    What is Repository pattern?
+
+    DAL vs Repository.
+
+    Generic Repository.
+
+    Is abstraction the only benefit?
+
+    Transactions in repository.
+
+    Unit of Work pattern.
+
+    Do we need repository if EF already does it?
+
+    Unit testing with repository.
+
+    How repository helps mocking.
+
+IOC & DI
+
+    IOC vs DI.
+
+    DI vs IOC.
+
+    Service Locator.
+
+    Service Locator vs DI.
+
+    Using simple class vs interface for DI.
+
+    Is DI a Factory pattern?
+
+    If object creation is centralized, is it Factory pattern?
+
+    Static DI vs Dynamic DI.
+
+    When to use Static vs Dynamic DI.
+
+⭐ Added
+
+    Behavioral patterns — Strategy, Observer, Command, Mediator, State.
+
+    Structural patterns — Adapter, Facade, Decorator, Proxy.
+
+    CQRS and Event Sourcing basics — separation of read/write and event persistence.
+
+    Message patterns — pub/sub, message queues, idempotency.
+
+17. INFRASTRUCTURE AND APPLICATIONS
+
+⭐ Added comprehensive section
+
+    ASP.NET Core fundamentals — middleware, routing, controllers, minimal APIs, middleware pipeline.
+
+    Authentication and Authorization — JWT, OAuth2, OpenID Connect, role and policy based auth.
+
+    Entity Framework Core — DbContext, migrations, change tracking, eager vs lazy loading.
+
+    API design — REST principles, versioning, pagination, error handling, HATEOAS basics.
+
+    Caching strategies — in‑memory, distributed cache, cache invalidation.
+
+    Background services and hosted services — IHostedService, BackgroundService.
+
+    SignalR and real‑time communication — WebSockets abstraction.
+
+    gRPC basics — high‑performance RPC for microservices.
+
+    Serialization — JSON (System.Text.Json), XML, custom converters.
+
+    Logging and observability — structured logging (Serilog), metrics, OpenTelemetry tracing.
+
+    Health checks and diagnostics — readiness, liveness, dotnet-counters.
+
+    Containerization and deployment — Dockerfile basics, multi‑stage builds, CI/CD pipelines.
+
+    Cloud fundamentals — Azure App Service, Azure Functions, Key Vault basics.
+
+    Security best practices — OWASP, input validation, secure storage of secrets.
+
+    Testing strategies — unit tests, integration tests, contract tests, mocking frameworks.
+
+    Performance and profiling — BenchmarkDotNet, dotnet-trace, memory and CPU profiling.
+
+    Versioning and backward compatibility — API and package versioning strategies.
+
+    Source control and workflows — Git branching strategies, PR reviews.
+
+    Build and package management — MSBuild, NuGet packaging, semantic versioning.
+
+18. TOOLS AND ECOSYSTEM
+
+⭐ Added
+
+    Visual Studio and VS Code productivity tips — debugging, breakpoints, live unit testing.
+
+    Roslyn analyzers and code fixes — static analysis and custom rules.
+
+    Benchmarking and profiling tools — BenchmarkDotNet, dotnet-trace, PerfView.
+
+    CI/CD tools — GitHub Actions, Azure DevOps pipelines basics.
+
+    Package management — creating and publishing NuGet packages.
